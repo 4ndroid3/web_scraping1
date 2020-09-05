@@ -12,7 +12,7 @@ def run():
     texto = soup.find_all('p',class_='title')
     precio = soup.find_all('p',class_='price')
 
-    # separo y filtro por categoria Mouse.
+    #adjunto el texto a una lista para poder iterarla.
     lista_texto = []
     for x in texto:
         # con un bucle extraigo el texto.
